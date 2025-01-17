@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Header() {
   return (
     <motion.header
-      className="bg-blue-900 text-white py-4 sticky top-0 z-50"
+      className="bg-blue-900 text-white py-4 top-0 z-50"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -22,7 +22,7 @@ export default function Header() {
             alt="Conference Banner"
             width={1024}
             height={351}
-            className="w-full max-w-3xl mx-auto"
+            className="w-full static max-w-3xl mx-auto"
           />
         </motion.div>
       </div>

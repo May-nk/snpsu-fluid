@@ -9,7 +9,10 @@ const textVariants = {
 
 export default function Hero() {
   return (
+     
+
     <section className="py-20 text-center bg-gradient-to-r from-blue-800 to-indigo-900 relative overflow-hidden">
+      
       <div className="absolute inset-0 bg-[url('/particle-bg.png')] opacity-20 animate-pulse"></div>
       <motion.div
         className="container mx-auto px-4 relative z-10"

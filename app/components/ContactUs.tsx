@@ -2,10 +2,11 @@ import Image from 'next/image'
 
 export default function ContactUs() {
   return (
+    <>
     <section className="py-20 bg-gradient-to-r from-indigo-900 to-blue-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-yellow-400">
-          CONTACT US
+          REGISTER NOW
         </h2>
         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
           <div className="bg-blue-800 rounded-lg p-6 flex-1">
@@ -26,13 +27,6 @@ export default function ContactUs() {
             </ul>
           </div>
           <div className="flex-1">
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold mb-2">Contact Information</h3>
-              <p>Email: <a href="mailto:iafd2025@snpsu.edu.in" className="text-blue-300 hover:text-blue-200">iafd2025@snpsu.edu.in</a></p>
-              <p>Mobile: +91 9886279543</p>
-              <p>Mobile: +91 8105974983</p>
-              <p>Mobile: +91 9008460807</p>
-            </div>
             <div>
               <Image
                 src="https://assets.onecompiler.app/4349mfz4s/434cahgq6/WhatsApp%20Image%202024-12-28%20at%2011.22.08%20AM.jpeg"
@@ -54,6 +48,25 @@ export default function ContactUs() {
         </div>
       </div>
     </section>
+    <section className="py-20 bg-gradient-to-r from-blue-900 to-indigo-900">
+    <div className="container mx-auto px-4">
+      <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-yellow-400">
+        CONTACT US
+      </h2>
+      <div className="flex justify-center items-start gap-8">
+        <div className="">
+          <div className="mb-6">
+            <h3 className="text-xl font-semibold mb-2">Contact Information</h3>
+            <p>Email: <a href="mailto:iafd2025@snpsu.edu.in" className="text-blue-300 hover:text-blue-200">iafd2025@snpsu.edu.in</a></p>
+            <p>Mobile: +91 9886279543</p>
+            <p>Mobile: +91 8105974983</p>
+            <p>Mobile: +91 9008460807</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </>
   )
 }
 

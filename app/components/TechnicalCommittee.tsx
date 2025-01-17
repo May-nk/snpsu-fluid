@@ -23,11 +23,6 @@ const members = [
   {
     name: "Dr. Vinod K S",
     title: "Asst Prof, Maths. SNPSU",
-    imageSrc: "https://assets.onecompiler.app/4349mfz4s/434jx7vm9/my-image%20(14)%20(1).png"
-  },
-  {
-    name: "Dr. Vinod K S",
-    title: "Asst Prof, Maths. SNPSU",
     imageSrc: "https://assets.onecompiler.app/4349mfz4s/434jx7vm9/my-image%20(13)%20(1).png"
   },
   {
