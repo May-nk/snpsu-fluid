@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gradient-to-b from-blue-900 via-indigo-900 to-purple-900 text-white;
+}
+
+/* Add any other global styles here */
+
