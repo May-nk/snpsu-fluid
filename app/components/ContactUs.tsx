@@ -29,7 +29,7 @@ export default function ContactUs() {
           <div className="flex-1">
             <div>
               <Image
-                src="https://assets.onecompiler.app/4349mfz4s/434cahgq6/WhatsApp%20Image%202024-12-28%20at%2011.22.08%20AM.jpeg"
+                src="https://i.ibb.co/tQZtRhQ/qr-flud.png"
                 alt="QR Code"
                 width={200}
                 height={200}
